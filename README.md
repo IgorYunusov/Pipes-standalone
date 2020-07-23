@@ -3,7 +3,7 @@ Named Pipes Server/Client
 
 Inter-process communication library. Pipe client input will transact with server to get a response from Dll back to client exe.
 
-######Initialize
+###### Initialize
 ```cpp
 
 // thread created on attach
@@ -29,7 +29,7 @@ DWORD Init(LPVOID hInstance)
 
 ```
 
-######Run on Tick
+###### Run on Tick
 ```cpp
 
 void RunPipes()
@@ -60,7 +60,7 @@ void RunPipes()
 
 ```
 
-######Handle Client
+###### Handle Client
 ```cpp
 
 // run client thread to connect and feed input (manually in this case)
