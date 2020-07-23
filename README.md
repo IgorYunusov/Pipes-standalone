@@ -6,7 +6,7 @@ Inter-process communication library. Pipe client input will transact with server
 Example Use:
 
 Initialize
-```
+```cpp
 
 // thread created on attach
 DWORD Init(LPVOID hInstance)
@@ -32,7 +32,7 @@ DWORD Init(LPVOID hInstance)
 ```
 
 Run on Tick
-```
+```cpp
 
 void RunPipes()
 {
@@ -63,7 +63,7 @@ void RunPipes()
 ```
 
 Handle Client
-```
+```cpp
 
 // run client thread to connect and feed input (manually in this case)
 void RunClient()
